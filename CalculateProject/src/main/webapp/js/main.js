@@ -10,8 +10,8 @@ var t;
                 maxNum = $.trim($("#maxNum").val()),
                 qtNum = $.trim($("#qtNum").val()),
                 optNum = $.trim($("#optNum").val()),
-                opt1 = $.trim($("#opt1").val()),
-                opt2 = $.trim($("#opt2").val());
+                opt1 = $("input[name='ifBrack']:checked").val(),
+                opt2 = $("input[name='ifScore']:checked").val();
             
             var quesitonsHtmlArr = "";
            
